@@ -1,0 +1,9 @@
+instructor
+yfinance
+numpy
+requests
+fastapi
+uvicorn
+python-dotenv
+openai
+pydantic
