@@ -1,0 +1,14 @@
+apiVersion: skaffold/v4beta6
+kind: Config
+metadata:
+  name: stockapp
+build:
+  artifacts:
+    - image: your-image-name
+      docker:
+        dockerfile: Dockerfile
+  tagPolicy:
+    sha256: {}
+manifests:
+  rawYaml:
+    - app-deployment.yaml
