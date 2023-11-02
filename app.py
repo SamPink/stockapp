@@ -26,7 +26,6 @@ app = FastAPI(
     version="1.0.0",
 )
 
-
 # Initialize cache for S&P 500 data
 sp500_data = None
 
